@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau b"/>
+        <attribute name="authors" value="DELL Inc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-21 08:51:42 AM"/>
+        <attribute name="created" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzA5OjUyOjUxIFBNOzIzODU="/>
+        <attribute name="edited" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzA5OjU5OjE2IFBNOzE7MjUwMQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1TTFQxRkczOzIwMjQtMTEtMjE7MDg6NTE6NDIgQU07MTsyOTI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="49" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot; 1 chai&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n&amp; &quot;chai&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Ph&#7841;m M&#7841;nh Th&#7889;ng  MSSV:235752021610005&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
