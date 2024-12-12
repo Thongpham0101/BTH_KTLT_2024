@@ -1,3 +1,5 @@
+print("PHẠM MẠNH THỐNG")
+print("MSV:235752021610071")
 import math;
 print("Gọi hàm và nhập vào bán kính: ")
 def chuvi(r):
@@ -7,5 +9,4 @@ def chuvi(r):
 def dientich(r):
     dt=math.pi*r**2
     print("Diện tích hình tròn bán kính ",r,"la: ",dt)
-print("PHẠM MẠNH THỐNG")
-print("MSV:235752021610071")
+
